@@ -3,671 +3,478 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-        
-	  
-    <nav className="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
-	    <div className="container">
-	      <a className="navbar-brand" href="index.html">Clark</a>
-	      <button className="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span className="oi oi-menu"></span> Menu
-	      </button>
-
-	      <div className="collapse navbar-collapse" id="ftco-nav">
-	        <ul className="navbar-nav nav ml-auto">
-	          <li className="nav-item"><a href="#home-section" className="nav-link"><span>Home</span></a></li>
-	          <li className="nav-item"><a href="#about-section" className="nav-link"><span>About</span></a></li>
-	          <li className="nav-item"><a href="#resume-section" className="nav-link"><span>Resume</span></a></li>
-	          <li className="nav-item"><a href="#services-section" className="nav-link"><span>Services</span></a></li>
-	          <li className="nav-item"><a href="#skills-section" className="nav-link"><span>Skills</span></a></li>
-	          <li className="nav-item"><a href="#projects-section" className="nav-link"><span>Projects</span></a></li>
-	          <li className="nav-item"><a href="#blog-section" className="nav-link"><span>My Blog</span></a></li>
-	          <li className="nav-item"><a href="#contact-section" className="nav-link"><span>Contact</span></a></li>
-	        </ul>
-	      </div>
-	    </div>
-	  </nav>
-	  <section id="home-section" className="hero">
-		  <div className="home-slider  owl-carousel">
-	      <div className="slider-item ">
-	      	<div className="overlay"></div>
-	        <div className="container">
-	          <div className="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div className="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_1.png);">
-	          		<div className="overlay"></div>
-	          	</div>
-		          <div className="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-		          	<div className="text">
-		          		<span className="subheading">Hello!</span>
-			            <h1 className="mb-4 mt-3">I'm <span>Clark Thompson</span></h1>
-			            <h2 className="mb-4">A Freelance Web Designer</h2>
-			            <p><a href="#" className="btn btn-primary py-3 px-4">Hire me</a> <a href="#" className="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
-		            </div>
-		          </div>
-	        	</div>
-	        </div>
-	      </div>
-
-	      <div className="slider-item">
-	      	<div className="overlay"></div>
-	        <div className="container">
-	          <div className="row d-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div className="one-third js-fullheight order-md-last img" style="background-image:url(images/bg_2.png);">
-	          		<div className="overlay"></div>
-	          	</div>
-		          <div className="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-		          	<div className="text">
-		          		<span className="subheading">Hello!</span>
-			            <h1 className="mb-4 mt-3">I'm a <span>web designer</span> based in London</h1>
-			            <p><a href="#" className="btn btn-primary py-3 px-4">Hire me</a> <a href="#" className="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
-		            </div>
-		          </div>
-	        	</div>
-	        </div>
-	      </div>
-	    </div>
-    </section>
-
-    <section className="ftco-about img ftco-section ftco-no-pb" id="about-section">
-    	<div className="container">
-    		<div className="row d-flex">
-    			<div className="col-md-6 col-lg-5 d-flex">
-    				<div className="img-about img d-flex align-items-stretch">
-    					<div className="overlay"></div>
-	    				<div className="img d-flex align-self-stretch align-items-center" style="background-image:url(images/bg_1.png);">
-	    				</div>
-    				</div>
-    			</div>
-    			<div className="col-md-6 col-lg-7 pl-lg-5 pb-5">
-    				<div className="row justify-content-start pb-3">
-		          <div className="col-md-12 heading-section ftco-animate">
-		          	<h1 className="big">About</h1>
-		            <h2 className="mb-4">About Me</h2>
-		            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-		            <ul className="about-info mt-4 px-md-0 px-2">
-		            	<li className="d-flex"><span>Name:</span> <span>Clark Thompson</span></li>
-		            	<li className="d-flex"><span>Date of birth:</span> <span>January 01, 1987</span></li>
-		            	<li className="d-flex"><span>Address:</span> <span>San Francisco CA 97987 USA</span></li>
-		            	<li className="d-flex"><span>Zip code:</span> <span>1000</span></li>
-		            	<li className="d-flex"><span>Email:</span> <span>clarkthomp@gmail.com</span></li>
-		            	<li className="d-flex"><span>Phone: </span> <span>+1-2234-5678-9-0</span></li>
-		            </ul>
-		          </div>
-		        </div>
-	          <div className="counter-wrap ftco-animate d-flex mt-md-3">
-              <div className="text">
-              	<p className="mb-4">
-	                <span className="number" data-number="120">0</span>
-	                <span>Project complete</span>
-                </p>
-                <p><a href="#" className="btn btn-primary py-3 px-3">Download CV</a></p>
-              </div>
-	          </div>
-	        </div>
-        </div>
-    	</div>
-    </section>
-
-    <section className="ftco-section ftco-no-pb" id="resume-section">
-    	<div className="container">
-    		<div className="row justify-content-center pb-5">
-          <div className="col-md-10 heading-section text-center ftco-animate">
-          	<h1 className="big big-2">Resume</h1>
-            <h2 className="mb-4">Resume</h2>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-          </div>
-        </div>
-    		<div className="row">
-    			<div className="col-md-6">
-    				<div className="resume-wrap ftco-animate">
-    					<span className="date">2014-2015</span>
-    					<h2>Master Degree of Design</h2>
-    					<span className="position">Cambridge University</span>
-    					<p className="mt-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-    				</div>
-    				<div className="resume-wrap ftco-animate">
-    					<span className="date">2014-2015</span>
-    					<h2>Bachelor's Degree of C.A</h2>
-    					<span className="position">Cambridge University</span>
-    					<p className="mt-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-    				</div>
-    				<div className="resume-wrap ftco-animate">
-    					<span className="date">2014-2015</span>
-    					<h2>Diploma in Computer</h2>
-    					<span className="position">Cambridge University</span>
-    					<p className="mt-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-    				</div>
-    			</div>
-
-    			<div className="col-md-6">
-    				<div className="resume-wrap ftco-animate">
-    					<span className="date">2014-2015</span>
-    					<h2>Art &amp; Creative Director</h2>
-    					<span className="position">Cambridge University</span>
-    					<p className="mt-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-    				</div>
-    				<div className="resume-wrap ftco-animate">
-    					<span className="date">2014-2015</span>
-    					<h2>Wordpress Developer</h2>
-    					<span className="position">Cambridge University</span>
-    					<p className="mt-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-    				</div>
-    				<div className="resume-wrap ftco-animate">
-    					<span className="date">2017-2018</span>
-    					<h2>UI/UX Designer</h2>
-    					<span className="position">Cambridge University</span>
-    					<p className="mt-4">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-    				</div>
-    			</div>
-    		</div>
-    		<div className="row justify-content-center mt-5">
-    			<div className="col-md-6 text-center ftco-animate">
-    				<p><a href="#" className="btn btn-primary py-4 px-5">Download CV</a></p>
-    			</div>
-    		</div>
-    	</div>
-    </section>
-
-    <section className="ftco-section" id="services-section">
-    	<div className="container">
-    		<div className="row justify-content-center py-5 mt-5">
-          <div className="col-md-12 heading-section text-center ftco-animate">
-          	<h1 className="big big-2">Services</h1>
-            <h2 className="mb-4">Services</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-          </div>
-        </div>
-    		<div className="row">
-					<div className="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" className="services-1">
-							<span className="icon">
-								<i className="flaticon-analysis"></i>
-							</span>
-							<div className="desc">
-								<h3 className="mb-5">Web Design</h3>
-							</div>
-						</a>
-					</div>
-					<div className="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" className="services-1">
-							<span className="icon">
-								<i className="flaticon-flasks"></i>
-							</span>
-							<div className="desc">
-								<h3 className="mb-5">Phtography</h3>
-							</div>
-						</a>
-					</div>
-					<div className="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" className="services-1">
-							<span className="icon">
-								<i className="flaticon-ideas"></i>
-							</span>
-							<div className="desc">
-								<h3 className="mb-5">Web Developer</h3>
-							</div>
-						</a>
-					</div>
-
-					<div className="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" className="services-1">
-							<span className="icon">
-								<i className="flaticon-analysis"></i>
-							</span>
-							<div className="desc">
-								<h3 className="mb-5">App Developing</h3>
-							</div>
-						</a>
-					</div>
-					<div className="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" className="services-1">
-							<span className="icon">
-								<i className="flaticon-flasks"></i>
-							</span>
-							<div className="desc">
-								<h3 className="mb-5">Branding</h3>
-							</div>
-						</a>
-					</div>
-					<div className="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" className="services-1">
-							<span className="icon">
-								<i className="flaticon-ideas"></i>
-							</span>
-							<div className="desc">
-								<h3 className="mb-5">Product Strategy</h3>
-							</div>
-						</a>
-					</div>
-				</div>
-    	</div>
-    </section>
-
-		
-		<section className="ftco-section" id="skills-section">
-			<div className="container">
-				<div className="row justify-content-center pb-5">
-          <div className="col-md-12 heading-section text-center ftco-animate">
-          	<h1 className="big big-2">Skills</h1>
-            <h2 className="mb-4">My Skills</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-          </div>
-        </div>
-				<div className="row">
-					<div className="col-md-6 animate-box">
-						<div className="progress-wrap ftco-animate">
-							<h3>Photoshop</h3>
-							<div className="progress">
-							 	<div className="progress-bar color-1" role="progressbar" aria-valuenow="90"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-							    <span>90%</span>
-							  	</div>
-							</div>
-						</div>
-					</div>
-					<div className="col-md-6 animate-box">
-						<div className="progress-wrap ftco-animate">
-							<h3>jQuery</h3>
-							<div className="progress">
-							 	<div className="progress-bar color-2" role="progressbar" aria-valuenow="85"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
-							    <span>85%</span>
-							  	</div>
-							</div>
-						</div>
-					</div>
-					<div className="col-md-6 animate-box">
-						<div className="progress-wrap ftco-animate">
-							<h3>HTML5</h3>
-							<div className="progress">
-							 	<div className="progress-bar color-3" role="progressbar" aria-valuenow="95"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:95%">
-							    <span>95%</span>
-							  	</div>
-							</div>
-						</div>
-					</div>
-					<div className="col-md-6 animate-box">
-						<div className="progress-wrap ftco-animate">
-							<h3>CSS3</h3>
-							<div className="progress">
-							 	<div className="progress-bar color-4" role="progressbar" aria-valuenow="90"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
-							    <span>90%</span>
-							  	</div>
-							</div>
-						</div>
-					</div>
-					<div className="col-md-6 animate-box">
-						<div className="progress-wrap ftco-animate">
-							<h3>WordPress</h3>
-							<div className="progress">
-							 	<div className="progress-bar color-5" role="progressbar" aria-valuenow="70"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
-							    <span>70%</span>
-							  	</div>
-							</div>
-						</div>
-					</div>
-					<div className="col-md-6 animate-box">
-						<div className="progress-wrap ftco-animate">
-							<h3>SEO</h3>
-							<div className="progress">
-							 	<div className="progress-bar color-6" role="progressbar" aria-valuenow="80"
-							  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-							    <span>80%</span>
-							  	</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
- 
-
-    <section className="ftco-section ftco-project" id="projects-section">
-    	<div className="container">
-    		<div className="row justify-content-center pb-5">
-          <div className="col-md-12 heading-section text-center ftco-animate">
-          	<h1 className="big big-2">Projects</h1>
-            <h2 className="mb-4">Our Projects</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-          </div>
-        </div>
-    		<div className="row">
-    			<div className="col-md-4">
-    				<div className="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-4.jpg);">
-    					<div className="overlay"></div>
-	    				<div className="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-  				</div>
-  				<div className="col-md-8">
-    				<div className="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-5.jpg);">
-    					<div className="overlay"></div>
-	    				<div className="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-  				</div>
-
-    			<div className="col-md-8">
-    				<div className="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-1.jpg);">
-    					<div className="overlay"></div>
-	    				<div className="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-
-    				<div className="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-6.jpg);">
-    					<div className="overlay"></div>
-	    				<div className="text text-center p-4">
-	    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-	    					<span>Web Design</span>
-	    				</div>
-    				</div>
-    			</div>
-    			<div className="col-md-4">
-    				<div className="row">
-    					<div className="col-md-12">
-		    				<div className="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-2.jpg);">
-		    					<div className="overlay"></div>
-			    				<div className="text text-center p-4">
-			    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-			    					<span>Web Design</span>
-			    				</div>
-		    				</div>
-	    				</div>
-	    				<div className="col-md-12">
-		    				<div className="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-3.jpg);">
-		    					<div className="overlay"></div>
-			    				<div className="text text-center p-4">
-			    					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
-			    					<span>Web Design</span>
-			    				</div>
-		    				</div>
-	    				</div>
-    				</div>
-    			</div>
-    		</div>
-    	</div>
-    </section>
-
-
-    <section className="ftco-section" id="blog-section">
-      <div className="container">
-        <div className="row justify-content-center mb-5 pb-5">
-          <div className="col-md-7 heading-section text-center ftco-animate">
-            <h1 className="big big-2">Blog</h1>
-            <h2 className="mb-4">Our Blog</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-          </div>
-        </div>
-        <div className="row d-flex">
-          <div className="col-md-4 d-flex ftco-animate">
-          	<div className="blog-entry justify-content-end">
-              <a href="single.html" className="block-20" style="background-image: url('images/image_1.jpg');">
-              </a>
-              <div className="text mt-3 float-right d-block">
-              	<div className="d-flex align-items-center mb-3 meta">
-	                <p className="mb-0">
-	                	<span className="mr-2">June 21, 2019</span>
-	                	<a href="#" className="mr-2">Admin</a>
-	                	<a href="#" className="meta-chat"><span className="icon-chat"></span> 3</a>
-	                </p>
-                </div>
-                <h3 className="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 d-flex ftco-animate">
-          	<div className="blog-entry justify-content-end">
-              <a href="single.html" className="block-20" style="background-image: url('images/image_2.jpg');">
-              </a>
-              <div className="text mt-3 float-right d-block">
-              	<div className="d-flex align-items-center mb-3 meta">
-	                <p className="mb-0">
-	                	<span className="mr-2">June 21, 2019</span>
-	                	<a href="#" className="mr-2">Admin</a>
-	                	<a href="#" className="meta-chat"><span className="icon-chat"></span> 3</a>
-	                </p>
-                </div>
-                <h3 className="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 d-flex ftco-animate">
-          	<div className="blog-entry">
-              <a href="single.html" className="block-20" style="background-image: url('images/image_3.jpg');">
-              </a>
-              <div className="text mt-3 float-right d-block">
-              	<div className="d-flex align-items-center mb-3 meta">
-	                <p className="mb-0">
-	                	<span className="mr-2">June 21, 2019</span>
-	                	<a href="#" className="mr-2">Admin</a>
-	                	<a href="#" className="meta-chat"><span className="icon-chat"></span> 3</a>
-	                </p>
-                </div>
-                <h3 className="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section className="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
-    	<div className="container">
-				<div className="row d-md-flex align-items-center">
-          <div className="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div className="block-18">
-              <div className="text">
-                <strong className="number" data-number="100">0</strong>
-                <span>Awards</span>
-              </div>
-            </div>
-          </div>
-          <div className="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div className="block-18">
-              <div className="text">
-                <strong className="number" data-number="1200">0</strong>
-                <span>Complete Projects</span>
-              </div>
-            </div>
-          </div>
-          <div className="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div className="block-18">
-              <div className="text">
-                <strong className="number" data-number="1200">0</strong>
-                <span>Happy Customers</span>
-              </div>
-            </div>
-          </div>
-          <div className="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div className="block-18">
-              <div className="text">
-                <strong className="number" data-number="500">0</strong>
-                <span>Cups of coffee</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section className="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
-			<div className="container">
-				<div className="row justify-content-center">
-					<div className="col-md-7 ftco-animate text-center">
-						<h2>I'm <span>Available</span> for freelancing</h2>
-						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-						<p className="mb-0"><a href="#" className="btn btn-primary py-3 px-5">Hire me</a></p>
-					</div>
-				</div>
-			</div>
-		</section>
-
-    <section className="ftco-section contact-section ftco-no-pb" id="contact-section">
-      <div className="container">
-      	<div className="row justify-content-center mb-5 pb-3">
-          <div className="col-md-7 heading-section text-center ftco-animate">
-            <h1 className="big big-2">Contact</h1>
-            <h2 className="mb-4">Contact Me</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-          </div>
-        </div>
-
-        <div className="row d-flex contact-info mb-5">
-          <div className="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div className="align-self-stretch box p-4 text-center">
-          		<div className="icon d-flex align-items-center justify-content-center">
-          			<span className="icon-map-signs"></span>
-          		</div>
-          		<h3 className="mb-4">Address</h3>
-	            <p>198 West 21th Street, Suite 721 New York NY 10016</p>
-	          </div>
-          </div>
-          <div className="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div className="align-self-stretch box p-4 text-center">
-          		<div className="icon d-flex align-items-center justify-content-center">
-          			<span className="icon-phone2"></span>
-          		</div>
-          		<h3 className="mb-4">Contact Number</h3>
-	            <p><a href="tel://1234567920">+ 1235 2355 98</a></p>
-	          </div>
-          </div>
-          <div className="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div className="align-self-stretch box p-4 text-center">
-          		<div className="icon d-flex align-items-center justify-content-center">
-          			<span className="icon-paper-plane"></span>
-          		</div>
-          		<h3 className="mb-4">Email Address</h3>
-	            <p><a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
-	          </div>
-          </div>
-          <div className="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div className="align-self-stretch box p-4 text-center">
-          		<div className="icon d-flex align-items-center justify-content-center">
-          			<span className="icon-globe"></span>
-          		</div>
-          		<h3 className="mb-4">Website</h3>
-	            <p><a href="#">yoursite.com</a></p>
-	          </div>
-          </div>
-        </div>
-
-        <div className="row no-gutters block-9">
-          <div className="col-md-6 order-md-last d-flex">
-            <form action="#" className="bg-light p-4 p-md-5 contact-form">
-              <div className="form-group">
-                <input type="text" className="form-control" placeholder="Your Name"></input>
-              </div>
-              <div className="form-group">
-                <input type="text" className="form-control" placeholder="Your Email"></input>
-              </div>
-              <div className="form-group">
-                <input type="text" className="form-control" placeholder="Subject"></input>
-              </div>
-              <div className="form-group">
-                <textarea name="" id="" cols="30" rows="7" className="form-control" placeholder="Message"></textarea>
-              </div>
-              <div className="form-group">
-                <input type="submit" value="Send Message" className="btn btn-primary py-3 px-5"> </input>
-              </div>
-            </form>
-          
-          </div>
-
-          <div className="col-md-6 d-flex">
-          	<div className="img" style="background-image: url(images/about.jpg);"></div>
-          </div>
-        </div>
-      </div>
-    </section>
-		
-
-    <footer className="ftco-footer ftco-section">
-      <div className="container">
-        <div className="row mb-5">
-          <div className="col-md">
-            <div className="ftco-footer-widget mb-4">
-              <h2 className="ftco-heading-2">About</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-              <ul className="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li className="ftco-animate"><a href="#"><span className="icon-twitter"></span></a></li>
-                <li className="ftco-animate"><a href="#"><span className="icon-facebook"></span></a></li>
-                <li className="ftco-animate"><a href="#"><span className="icon-instagram"></span></a></li>
-              </ul>
-            </div>
-          </div>
-          <div className="col-md">
-            <div className="ftco-footer-widget mb-4 ml-md-4">
-              <h2 className="ftco-heading-2">Links</h2>
-              <ul className="list-unstyled">
-                <li><a href="#"><span className="icon-long-arrow-right mr-2"></span>Home</a></li>
-                <li><a href="#"><span className="icon-long-arrow-right mr-2"></span>About</a></li>
-                <li><a href="#"><span className="icon-long-arrow-right mr-2"></span>Services</a></li>
-                <li><a href="#"><span className="icon-long-arrow-right mr-2"></span>Projects</a></li>
-                <li><a href="#"><span className="icon-long-arrow-right mr-2"></span>Contact</a></li>
-              </ul>
-            </div>
-          </div>
-          <div className="col-md">
-             <div className="ftco-footer-widget mb-4">
-              <h2 className="ftco-heading-2">Services</h2>
-              <ul className="list-unstyled">
-                <li><a href="#"><span className="icon-long-arrow-right mr-2"></span>Web Design</a></li>
-                <li><a href="#"><span className="icon-long-arrow-right mr-2"></span>Web Development</a></li>
-                <li><a href="#"><span className="icon-long-arrow-right mr-2"></span>Business Strategy</a></li>
-                <li><a href="#"><span className="icon-long-arrow-right mr-2"></span>Data Analysis</a></li>
-                <li><a href="#"><span className="icon-long-arrow-right mr-2"></span>Graphic Design</a></li>
-              </ul>
-            </div>
-          </div>
-          <div className="col-md">
-            <div className="ftco-footer-widget mb-4">
-            	<h2 className="ftco-heading-2">Have a Questions?</h2>
-            	<div className="block-23 mb-3">
-	              <ul>
-	                <li><span className="icon icon-map-marker"></span><span className="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-	                <li><a href="#"><span className="icon icon-phone"></span><span className="text">+2 392 3929 210</span></a></li>
-	                <li><a href="#"><span className="icon icon-envelope"></span><span className="text">info@yourdomain.com</span></a></li>
-	              </ul>
-	            </div>
-            </div>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-md-12 text-center">
-
-            <p>
-              {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i className="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-  </p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    
   
+    <>
+      {/* MENU */}
+      <nav className="navbar navbar-expand-sm navbar-light">
+        <div className="container">
+          <a className="navbar-brand" href="index.html">
+            <i className="uil uil-user" /> Marvel
+          </a>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon" />
+            <span className="navbar-toggler-icon" />
+            <span className="navbar-toggler-icon" />
+          </button>
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav mx-auto">
+              <li className="nav-item">
+                <a href="#about" className="nav-link">
+                  <span data-hover="About">About</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="#project" className="nav-link">
+                  <span data-hover="Projects">Projects</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="#resume" className="nav-link">
+                  <span data-hover="Resume">Resume</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="#contact" className="nav-link">
+                  <span data-hover="Contact">Contact</span>
+                </a>
+              </li>
+            </ul>
+            {/* <ul className="navbar-nav ml-lg-auto">
+              <div className="ml-lg-4">
+                <div className="color-mode d-lg-flex justify-content-center align-items-center">
+                  <i className="color-mode-icon" />
+                  Color mode
+                </div>
+              </div>
+            </ul> */}
+          </div>
+        </div>
+      </nav>
+      {/* ABOUT */}
+      <section
+        className="about full-screen d-lg-flex justify-content-center align-items-center"
+        id="about"
+      >
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+              <div className="about-text">
+                <small className="small-text">
+                  Welcome to{" "}
+                  <span className="mobile-block">my portfolio website!</span>
+                </small>
+                <h1 className="animated animated-text">
+                  <span className="mr-2">Hey folks, I'm</span>
+                  <div className="animated-info">
+                    <span className="animated-item">Marvel Sann</span>
+                    <span className="animated-item">Web Designer</span>
+                    <span className="animated-item">UI Specialist</span>
+                  </div>
+                </h1>
+                <p>
+                  Building a successful product is a challenge. I am highly
+                  energetic in user experience design, interfaces and web
+                  development.
+                </p>
+                <div className="custom-btn-group mt-4">
+                  <a href="#" className="btn mr-lg-2 custom-btn">
+                    <i className="uil uil-file-alt" /> Download Resume
+                  </a>
+                  <a
+                    href="#contact"
+                    className="btn custom-btn custom-btn-bg custom-btn-link"
+                  >
+                    Get a free quote
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-5 col-md-12 col-12">
+              <div className="about-image svg">
+                <img
+                  src="images/undraw/undraw_software_engineer_lvl5.svg"
+                  className="img-fluid"
+                  alt="svg image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* PROJECTS */}
+      <section className="project py-5" id="project">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-11 text-center mx-auto col-12">
+              <div className="col-lg-8 mx-auto">
+                <h2>Things I have designed for digital media agencies</h2>
+              </div>
+             {/* <div className="item">
+                <div className="project-info">
+                  <img
+                    src="images/project/project-image01.png"
+                    alt="project images"
+                  />
+                </div>
 
-  {/* loader */}
-  <div id="ftco-loader" className="show fullscreen"><svg className="circular" width="48px" height="48px"><circle className="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle className="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+                <div className="project-info">
+                  <img
+                    src="images/project/project-image02.png"
+                    alt="project images"
+                  />
+                </div>
 
+                <div className="project-info">
+                  <img
+                    src="images/project/project-image03.png"
+                    alt="project images"
+                  />
+                </div>
+
+                <div className="project-info">
+                  <img
+                    src="images/project/project-image04.png"
+                    alt="project images"
+                  />
+                </div>
+
+                <div className="project-info">
+                  <img
+                    src="images/project/project-image05.png"
+                    alt="project images"
+                  />
+                </div>
+
+              </div> */}
+              
+             {/* <div className="owl-carousel owl-theme"> */}
+                <div className="item">
+                  <div className="project-info">
+                    <img
+                      src="images/project/project-image01.png"
+                      className="img-fluid"
+                      alt="project image"
+                    />
+                  </div>
+                </div>
+                <div className="item">
+                  <div className="project-info">
+                    <img
+                      src="images/project/project-image02.png"
+                      className="img-fluid"
+                      alt="project image"
+                    />
+                  </div>
+                </div>
+                <div className="item">
+                  <div className="project-info">
+                    <img
+                      src="images/project/project-image03.png"
+                      className="img-fluid"
+                      alt="project image"
+                    />
+                  </div>
+                </div>
+                <div className="item">
+                  <div className="project-info">
+                    <img
+                      src="images/project/project-image04.png"
+                      className="img-fluid"
+                      alt="project image"
+                    />
+                  </div>
+                </div>
+                <div className="item">
+                  <div className="project-info">
+                    <img
+                      src="images/project/project-image05.png"
+                      className="img-fluid"
+                      alt="project image"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        {/* </div> */}
+      </section>
+
+      {/* FEATURES */}
+      <section
+        className="resume py-5 d-lg-flex justify-content-center align-items-center"
+        id="resume"
+      >
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 col-12">
+              <h2 className="mb-4">Experiences</h2>
+              <div className="timeline">
+                <div className="timeline-wrapper">
+                  <div className="timeline-yr">
+                    <span>2019</span>
+                  </div>
+                  <div className="timeline-info">
+                    <h3>
+                      <span>Project Manager</span>
+                      <small>Best Studio</small>
+                    </h3>
+                    <p>
+                      Proin ornare non purus ut rutrum. Nulla facilisi. Aliquam
+                      laoreet libero ac pharetra feugiat. Cras ac fermentum nunc, a
+                      faucibus nunc.
+                    </p>
+                  </div>
+                </div>
+                <div className="timeline-wrapper">
+                  <div className="timeline-yr">
+                    <span>2018</span>
+                  </div>
+                  <div className="timeline-info">
+                    <h3>
+                      <span>UX Designer</span>
+                      <small>Digital Ace</small>
+                    </h3>
+                    <p>
+                      Fusce rutrum augue id orci rhoncus molestie. Nunc auctor
+                      dignissim lacus vel iaculis.
+                    </p>
+                  </div>
+                </div>
+                <div className="timeline-wrapper">
+                  <div className="timeline-yr">
+                    <span>2016</span>
+                  </div>
+                  <div className="timeline-info">
+                    <h3>
+                      <span>UI Freelancer</span>
+                    </h3>
+                    <p>
+                      Sed fringilla vitae enim sit amet cursus. Sed cursus dictum
+                      tortor quis pharetra. Pellentesque habitant morbi tristique
+                      senectus et netus et malesuada fames ac turpis egestas.
+                    </p>
+                  </div>
+                </div>
+                <div className="timeline-wrapper">
+                  <div className="timeline-yr">
+                    <span>2014</span>
+                  </div>
+                  <div className="timeline-info">
+                    <h3>
+                      <span>
+                        Junior Designer<small>Crafted Co.</small>
+                      </span>
+                    </h3>
+                    <p>
+                      Cras scelerisque scelerisque condimentum. Nullam at volutpat
+                      mi. Nunc auctor ipsum eget magna consequat viverra.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-12">
+              <h2 className="mb-4 mobile-mt-2">Educations</h2>
+              <div className="timeline">
+                <div className="timeline-wrapper">
+                  <div className="timeline-yr">
+                    <span>2017</span>
+                  </div>
+                  <div className="timeline-info">
+                    <h3>
+                      <span>Mobile Web</span>
+                      <small>Master Design</small>
+                    </h3>
+                    <p>
+                      Please tell your friends about Tooplate website. That would be
+                      very helpful. We need your support.
+                    </p>
+                  </div>
+                </div>
+                <div className="timeline-wrapper">
+                  <div className="timeline-yr">
+                    <span>2015</span>
+                  </div>
+                  <div className="timeline-info">
+                    <h3>
+                      <span>User Interfaces</span>
+                      <small>Creative Agency</small>
+                    </h3>
+                    <p>
+                      <a rel="nofollow" href="https://www.facebook.com/tooplate">
+                        Tooplate
+                      </a>{" "}
+                      is a great website to download HTML templates without any
+                      login or email.
+                    </p>
+                  </div>
+                </div>
+                <div className="timeline-wrapper">
+                  <div className="timeline-yr">
+                    <span>2013</span>
+                  </div>
+                  <div className="timeline-info">
+                    <h3>
+                      <span>Artwork Design</span>
+                      <small>New Art School</small>
+                    </h3>
+                    <p>
+                      You can freely use Tooplate's templates for your business or
+                      personal sites. You cannot redistribute this template without
+                      a permission.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* CONTACT */}
+      <section className="contact py-5" id="contact">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-5 mr-lg-5 col-12">
+              <div className="google-map w-100">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12088.558402180099!2d-73.99373482142036!3d40.75895421922642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855b8fb3083%3A0xa0f9aef176042a5c!2sTheater+District%2C+New+York%2C+NY%2C+USA!5e0!3m2!1sen!2smm!4v1549875377188"
+                  width={400}
+                  height={300}
+                  frameBorder={0}
+                  style={{ border: 0 }}
+                  allowFullScreen=""
+                />
+              </div>
+              <div className="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+                <div className="contact-info-item">
+                  <h3 className="mb-3 text-white">Say hello</h3>
+                  <p className="footer-text mb-0">010 020 0960</p>
+                  <p>
+                    <a href="mailto:hello@company.co">hello@company.co</a>
+                  </p>
+                </div>
+                <ul className="social-links">
+                  <li>
+                    <a
+                      href="#"
+                      className="uil uil-dribbble"
+                      data-toggle="tooltip"
+                      data-placement="left"
+                      title="Dribbble"
+                    />
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      className="uil uil-instagram"
+                      data-toggle="tooltip"
+                      data-placement="left"
+                      title="Instagram"
+                    />
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      className="uil uil-youtube"
+                      data-toggle="tooltip"
+                      data-placement="left"
+                      title="Youtube"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-lg-6 col-12">
+              <div className="contact-form">
+                <h2 className="mb-4">Interested to work together? Let's talk</h2>
+                <form action="" method="get">
+                  <div className="row">
+                    <div className="col-lg-6 col-12">
+                      <input
+                        type="text"
+                        className="form-control"
+                        name="name"
+                        placeholder="Your Name"
+                        id="name"
+                      />
+                    </div>
+                    <div className="col-lg-6 col-12">
+                      <input
+                        type="email"
+                        className="form-control"
+                        name="email"
+                        placeholder="Email"
+                        id="email"
+                      />
+                    </div>
+                    <div className="col-12">
+                      <textarea
+                        name="message"
+                        rows={6}
+                        className="form-control"
+                        id="message"
+                        placeholder="Message"
+                        defaultValue={""}
+                      />
+                    </div>
+                    <div className="ml-lg-auto col-lg-5 col-12">
+                      <input
+                        type="submit"
+                        className="form-control submit-btn"
+                        defaultValue="Send Button"
+                      />
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* FOOTER */}
+      <footer className="footer py-5">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12 col-12">
+              <p className="copyright-text text-center">
+                Copyright © 2019 Company Name . All rights reserved
+              </p>
+              <p className="copyright-text text-center">
+                Designed by{" "}
+                <a rel="nofollow" href="https://www.facebook.com/tooplate">
+                  Tooplate
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/popper.min.js"></script>       
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/Headroom.js"></script>
+      <script src="js/jQuery.headroom.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="js/smoothscroll.js"></script>
+      <script src="js/custom.js"></script>
 
     </>
+
+
   )
 }
 
