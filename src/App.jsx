@@ -82,7 +82,8 @@ function App() {
                   memorable. Let's collaborate and make something amazing together!"
                 </p>
                 <div className="custom-btn-group mt-4">
-                  <a href="#" className="btn mr-lg-2 custom-btn">
+                  <a href="public/Resume.pdf" target="_blank" className="btn mr-lg-2 custom-btn">
+                    
                     <i className="uil uil-file-alt" /> Download Resume
                   </a>
                   <a
