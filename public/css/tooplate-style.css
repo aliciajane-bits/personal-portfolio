@@ -111,8 +111,10 @@ b, strong {
   display: inline-block;
   vertical-align: top;
   margin-top: 5px;
-  min-width: 260px;
+  min-width: 380px;
   position: relative;
+  margin-top: 15px;
+  font-size: 42px;
 }
 
 .animated-item {
@@ -463,6 +465,66 @@ b, strong {
 }
 .social-links .uil:hover {
   color: #ffc200;
+}
+
+.list-of-images {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, 465px);
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.project-info {
+  width: 350px;
+}
+
+.project-info1 {
+  height: 450px;
+}
+
+
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.item2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.item3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.item4 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.item5 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.item6 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
 
 @media (min-width: 1270px) {

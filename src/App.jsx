@@ -77,17 +77,18 @@ function App() {
                   <span className="mobile-block">my portfolio website!</span>
                 </small>
                 <h1 className="animated animated-text">
-                  <span className="mr-2">Hey folks, I'm</span>
-                  <div className="animated-info">
-                    <span className="animated-item">Marvel Sann</span>
-                    <span className="animated-item">Web Designer</span>
-                    <span className="animated-item">UI Specialist</span>
+                  <span className="mr-2">Hello guys, I'm</span>
+                  <div className="animated-info" >
+                    <span className="animated-item">Alicia Jane Medina</span>
+                    <span className="animated-item">a Cartoonist</span>
+                    <span className="animated-item">a Graphic Designer</span>
                   </div>
                 </h1>
                 <p>
-                  Building a successful product is a challenge. I am highly
-                  energetic in user experience design, interfaces and web
-                  development.
+                  Bringing stories to life through visual storytelling.
+                  I'm crafting quirky characters or designing eye-catching
+                  graphics, I love using my skills to create something unique and
+                  memorable. Let's collaborate and make something amazing together!"
                 </p>
                 <div className="custom-btn-group mt-4">
                   <a href="#" className="btn mr-lg-2 custom-btn">
@@ -97,7 +98,7 @@ function App() {
                     href="#contact"
                     className="btn custom-btn custom-btn-bg custom-btn-link"
                   >
-                    Get a free quote
+                    Commission
                   </a>
                 </div>
               </div>
@@ -105,7 +106,7 @@ function App() {
             <div className="col-lg-5 col-md-12 col-12">
               <div className="about-image svg">
                 <img
-                  src="images/undraw/undraw_software_engineer_lvl5.svg"
+                  src="images/undraw/PORTFOLIO.png"
                   className="img-fluid"
                   alt="svg image"
                 />
@@ -120,97 +121,74 @@ function App() {
           <div className="row">
             <div className="col-lg-11 text-center mx-auto col-12">
               <div className="col-lg-8 mx-auto">
-                <h2>Things I have designed for digital media agencies</h2>
+                <h2>Things I have illustrated for my clients </h2>
               </div>
-             {/* <div className="item">
-                <div className="project-info">
-                  <img
-                    src="images/project/project-image01.png"
-                    alt="project images"
-                  />
-                </div>
-
-                <div className="project-info">
-                  <img
-                    src="images/project/project-image02.png"
-                    alt="project images"
-                  />
-                </div>
-
-                <div className="project-info">
-                  <img
-                    src="images/project/project-image03.png"
-                    alt="project images"
-                  />
-                </div>
-
-                <div className="project-info">
-                  <img
-                    src="images/project/project-image04.png"
-                    alt="project images"
-                  />
-                </div>
-
-                <div className="project-info">
-                  <img
-                    src="images/project/project-image05.png"
-                    alt="project images"
-                  />
-                </div>
-
-              </div> */}
-              
-             {/* <div className="owl-carousel owl-theme"> */}
-                <div className="item">
-                  <div className="project-info">
-                    <img
-                      src="images/project/project-image01.png"
-                      className="img-fluid"
-                      alt="project image"
-                    />
-                  </div>
-                </div>
-                <div className="item">
-                  <div className="project-info">
-                    <img
-                      src="images/project/project-image02.png"
-                      className="img-fluid"
-                      alt="project image"
-                    />
-                  </div>
-                </div>
-                <div className="item">
-                  <div className="project-info">
-                    <img
-                      src="images/project/project-image03.png"
-                      className="img-fluid"
-                      alt="project image"
-                    />
-                  </div>
-                </div>
-                <div className="item">
-                  <div className="project-info">
-                    <img
-                      src="images/project/project-image04.png"
-                      className="img-fluid"
-                      alt="project image"
-                    />
-                  </div>
-                </div>
-                <div className="item">
-                  <div className="project-info">
-                    <img
-                      src="images/project/project-image05.png"
-                      className="img-fluid"
-                      alt="project image"
-                    />
-                  </div>
-                </div>
+                <ul className="list-of-images">
+                  <li className="item1">  
+                    <div className="project-info">
+                      <img
+                        src="images/project/project-image01.png"
+                        className="img-fluid"
+                        alt="project image"
+                      />
+                    </div>
+                  </li>
+                  <li className="item2">
+                    <div className="project-info">
+                      <img
+                        src="images/project/project-image02.png"
+                        className="img-fluid"
+                        alt="project image"
+                      />
+                    </div>
+                  </li>
+                  <li className='item3'>
+                    <div className="project-info">
+                      <img
+                        src="images/project/project-image03.png"
+                        className="img-fluid"
+                        alt="project image"
+                      />
+                    </div>
+                  </li>
+                  <li className='item4'>
+                    <div className="project-info">
+                      <img
+                        src="images/project/project-image04.png"
+                        className="img-fluid"
+                        alt="project image"
+                      />
+                    </div>
+                  </li>
+                  <li className='item5'>
+                    <div className="project-info1">
+                      <img
+                        src="images/project/project-image05.png"
+                        className="img-fluid"
+                        alt="project image"
+                      />
+                    </div>
+                  </li>
+                  <li className='item6'>
+                    <div className="project-info2">
+                      <img
+                        src="images/project/project-image06.png"
+                        className="img-fluid"
+                        alt="project image"
+                      />
+                    </div>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         {/* </div> */}
       </section>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
 
       {/* FEATURES */}
       <section
@@ -220,36 +198,36 @@ function App() {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-12">
-              <h2 className="mb-4">Experiences</h2>
+              <h2 className="mb-4">Education</h2>
               <div className="timeline">
                 <div className="timeline-wrapper">
                   <div className="timeline-yr">
-                    <span>2019</span>
+                    <span>2016</span>
                   </div>
                   <div className="timeline-info">
                     <h3>
-                      <span>Project Manager</span>
-                      <small>Best Studio</small>
+                      <span>Laverdad Christian Colleges Inc.</span>
+                      <small>2022 - Present</small>
                     </h3>
                     <p>
-                      Proin ornare non purus ut rutrum. Nulla facilisi. Aliquam
-                      laoreet libero ac pharetra feugiat. Cras ac fermentum nunc, a
-                      faucibus nunc.
+                       A consistent honor student and a valedictorian graduate.
+                       Competed to a Math Quiz Bee Division Level, won 4th place
+                       and Buwan ng Wika Essay Division Level, won 2nd place. 
                     </p>
+
                   </div>
                 </div>
                 <div className="timeline-wrapper">
                   <div className="timeline-yr">
-                    <span>2018</span>
+                    <span>2020</span>
                   </div>
                   <div className="timeline-info">
                     <h3>
-                      <span>UX Designer</span>
-                      <small>Digital Ace</small>
+                      <span>AMA Computer Colleges Dagupan</span>
+                      <small>2020 - 2022</small>
                     </h3>
                     <p>
-                      Fusce rutrum augue id orci rhoncus molestie. Nunc auctor
-                      dignissim lacus vel iaculis.
+                      A consistent honor from ICT - Programming strand and graduated Salutatorian.
                     </p>
                   </div>
                 </div>
@@ -259,12 +237,13 @@ function App() {
                   </div>
                   <div className="timeline-info">
                     <h3>
-                      <span>UI Freelancer</span>
+                      <span>Mangaldan National Higschool</span>
+                      <small>2016 - 2020</small>
                     </h3>
                     <p>
-                      Sed fringilla vitae enim sit amet cursus. Sed cursus dictum
-                      tortor quis pharetra. Pellentesque habitant morbi tristique
-                      senectus et netus et malesuada fames ac turpis egestas.
+                      A consistent honor and graduated from Special 
+                      Program in Mathematics Class. Competed to various 
+                      mathematics competion and an active member of Mathematics Club.
                     </p>
                   </div>
                 </div>
@@ -275,12 +254,13 @@ function App() {
                   <div className="timeline-info">
                     <h3>
                       <span>
-                        Junior Designer<small>Crafted Co.</small>
+                        Guesang Elementary School <small>2009 - 2016</small>
                       </span>
                     </h3>
                     <p>
-                      Cras scelerisque scelerisque condimentum. Nullam at volutpat
-                      mi. Nunc auctor ipsum eget magna consequat viverra.
+                       A consistent honor student and a valedictorian graduate.
+                       Competed to a Math Quiz Bee Division Level, won 4th place
+                       and Buwan ng Wika Essay Division Level, won 2nd place.
                     </p>
                   </div>
                 </div>
@@ -344,13 +324,14 @@ function App() {
         </div>
       </section>
       {/* CONTACT */}
+
       <section className="contact py-5" id="contact">
         <div className="container">
           <div className="row">
             <div className="col-lg-5 mr-lg-5 col-12">
               <div className="google-map w-100">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12088.558402180099!2d-73.99373482142036!3d40.75895421922642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855b8fb3083%3A0xa0f9aef176042a5c!2sTheater+District%2C+New+York%2C+NY%2C+USA!5e0!3m2!1sen!2smm!4v1549875377188"
+                  src="https://www.openstreetmap.org/export/embed.html?bbox=120.75764715671541%2C14.958441554625663%2C120.76015770435335%2C14.960211417384667&amp;layer=mapnik"
                   width={400}
                   height={300}
                   frameBorder={0}
@@ -360,10 +341,10 @@ function App() {
               </div>
               <div className="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
                 <div className="contact-info-item">
-                  <h3 className="mb-3 text-white">Say hello</h3>
-                  <p className="footer-text mb-0">010 020 0960</p>
+                  <h3 className="mb-3 text-white">Alicia Jane Medina</h3>
+                  <p className="footer-text mb-0">0991-674-3738</p>
                   <p>
-                    <a href="mailto:hello@company.co">hello@company.co</a>
+                    <a href="aliciajanemedina881@gmail.com">hello@company.co</a>
                   </p>
                 </div>
                 <ul className="social-links">
@@ -445,18 +426,13 @@ function App() {
         </div>
       </section>
       {/* FOOTER */}
+
       <footer className="footer py-5">
         <div className="container">
           <div className="row">
             <div className="col-lg-12 col-12">
               <p className="copyright-text text-center">
                 Copyright © 2019 Company Name . All rights reserved
-              </p>
-              <p className="copyright-text text-center">
-                Designed by{" "}
-                <a rel="nofollow" href="https://www.facebook.com/tooplate">
-                  Tooplate
-                </a>
               </p>
             </div>
           </div>
