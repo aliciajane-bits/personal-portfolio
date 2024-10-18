@@ -52,20 +52,11 @@ function App() {
                 </a>
               </li>
             </ul>
-            {/* <ul className="navbar-nav ml-lg-auto">
-              <div className="ml-lg-4">
-                <div className="color-mode d-lg-flex justify-content-center align-items-center">
-                  <i className="color-mode-icon" />
-                  Color mode
-                </div>
-              </div>
-            </ul> */}
           </div>
         </div>
       </nav>
       {/* ABOUT */}
       <section
-        className="about full-screen d-lg-flex justify-content-center align-items-center"
         id="about"
       >
         <div className="container">
@@ -80,7 +71,7 @@ function App() {
                   <span className="mr-2">Hello guys, I'm</span>
                   <div className="animated-info" >
                     <span className="animated-item">Alicia Jane Medina</span>
-                    <span className="animated-item">a Cartoonist</span>
+                    <span className="animated-item">a Digital Illustrator</span>
                     <span className="animated-item">a Graphic Designer</span>
                   </div>
                 </h1>
@@ -267,7 +258,7 @@ function App() {
               </div>
             </div>
             <div className="col-lg-6 col-12">
-              <h2 className="mb-4 mobile-mt-2">Educations</h2>
+              <h2 className="mb-4 mobile-mt-2">Experiences</h2>
               <div className="timeline">
                 <div className="timeline-wrapper">
                   <div className="timeline-yr">
@@ -275,12 +266,17 @@ function App() {
                   </div>
                   <div className="timeline-info">
                     <h3>
-                      <span>Mobile Web</span>
-                      <small>Master Design</small>
+                      <span>Freelance Digital Illustrator</span>
+                      <small>July 2024 - Present</small>
                     </h3>
-                    <p>
-                      Please tell your friends about Tooplate website. That would be
-                      very helpful. We need your support.
+                    <p> 
+                    I've honed my skills in creating captivating visual narratives. 
+                    I specialize in children's book illustration. My work involves 
+                    collaborating closely with clients to understand
+                    their vision and bring their ideas to life through
+                    vibrant and detailed illustrations. I'm passionate
+                    explore new artistic
+                    possibilities and deliver high-quality work that exceeds expectation.
                     </p>
                   </div>
                 </div>
@@ -290,31 +286,15 @@ function App() {
                   </div>
                   <div className="timeline-info">
                     <h3>
-                      <span>User Interfaces</span>
-                      <small>Creative Agency</small>
+                      <span>Barangay Assistant Secretary</span>
+                      <small>March 2021 - June 2022</small>
                     </h3>
                     <p>
-                      <a rel="nofollow" href="https://www.facebook.com/tooplate">
-                        Tooplate
-                      </a>{" "}
-                      is a great website to download HTML templates without any
-                      login or email.
-                    </p>
-                  </div>
-                </div>
-                <div className="timeline-wrapper">
-                  <div className="timeline-yr">
-                    <span>2013</span>
-                  </div>
-                  <div className="timeline-info">
-                    <h3>
-                      <span>Artwork Design</span>
-                      <small>New Art School</small>
-                    </h3>
-                    <p>
-                      You can freely use Tooplate's templates for your business or
-                      personal sites. You cannot redistribute this template without
-                      a permission.
+                    "I was responsible for organizing and managing digital 
+                    records, accurately inputting reports into the computer system,
+                    and generating essential documents. I am proficient in 
+                    Microsoft Office Suite 
+                    and committed to maintaining a well-organized and efficient workspace.
                     </p>
                   </div>
                 </div>
@@ -344,35 +324,37 @@ function App() {
                   <h3 className="mb-3 text-white">Alicia Jane Medina</h3>
                   <p className="footer-text mb-0">0991-674-3738</p>
                   <p>
-                    <a href="aliciajanemedina881@gmail.com">hello@company.co</a>
+                    <a href="aliciajanemedina881@gmail.com">aliciajanemedina881@gmail.com</a>
                   </p>
                 </div>
                 <ul className="social-links">
                   <li>
                     <a
-                      href="#"
+                      href="https://www.raket.ph/aliciajanemedina881"
                       className="uil uil-dribbble"
                       data-toggle="tooltip"
                       data-placement="left"
                       title="Dribbble"
+                      target='_blank'
                     />
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="https://www.instagram.com/wes.medina12/"
                       className="uil uil-instagram"
                       data-toggle="tooltip"
                       data-placement="left"
                       title="Instagram"
+                      target="_blank"
                     />
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="https://www.youtube.com/@lijendiethel9487"
                       className="uil uil-youtube"
                       data-toggle="tooltip"
                       data-placement="left"
-                      title="Youtube"
+                      title="_blank"
                     />
                   </li>
                 </ul>
