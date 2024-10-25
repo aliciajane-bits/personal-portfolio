@@ -1,0 +1,85 @@
+.item1 {
+    position: relative;
+    width: 50%;
+}
+.img1 {
+opacity: 1;
+display: block;
+width: 100%;
+height: auto;
+transition: .5s ease;
+backface-visibility: hidden;
+}
+
+.middle1 {
+transition: .5s ease;
+opacity: 0;
+position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.text1 {
+background-color: #04AA6D;
+color: white;
+font-size: 16px;
+padding: 16px 32px;
+}
+
+.item01:hover .img1 {
+opacity: 30%;
+}
+
+.item01:hover .middle1 {
+opacity: 100%;
+}  
+
+
+
+.item2 {
+    position: relative;
+    width: 50%;
+}
+.img2 {
+opacity: 1;
+display: block;
+width: 100%;
+height: auto;
+transition: .5s ease;
+backface-visibility: hidden;
+}
+
+.middle2 {
+transition: .5s ease;
+opacity: 0;
+position: relative;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.text2 {
+background-color: #04AA6D;
+color: white;
+font-size: 16px;
+padding: 16px 32px;
+}
+
+.item02:hover .img2 {
+opacity: 30%;
+}
+
+.item02:hover .middle2 {
+opacity: 100%;
+}  

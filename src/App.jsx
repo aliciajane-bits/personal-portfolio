@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 
@@ -14,7 +12,7 @@ function App() {
       <nav className="navbar navbar-expand-sm navbar-light">
         <div className="container">
           <a className="navbar-brand" href="index.html">
-            <i className="uil uil-user" /> Marvel
+            <i className="uil uil-user" /> LijenM
           </a>
           <button
             className="navbar-toggler"
@@ -82,7 +80,7 @@ function App() {
                   memorable. Let's collaborate and make something amazing together!"
                 </p>
                 <div className="custom-btn-group mt-4">
-                  <a href="public/Resume.pdf" target="_blank" className="btn mr-lg-2 custom-btn">
+                  <a href="Lijen_Resume.pdf" download={"public/Resume.pdf"} className="btn mr-lg-2 custom-btn">
                     
                     <i className="uil uil-file-alt" /> Download Resume
                   </a>
@@ -115,62 +113,84 @@ function App() {
               <div className="col-lg-8 mx-auto">
                 <h2>Things I have illustrated for my clients </h2>
               </div>
-                <ul className="list-of-images">
-                  <li className="item1">  
+              <ul className="list-of-images">
+
+                <li className="item1">  
+                  <div className="item01">
                     <div className="project-info">
                       <img
                         src="images/project/project-image01.png"
-                        className="img-fluid"
+                        className="img1"
                         alt="project image"
                       />
+                      <div className='middle1'>
+                        <div className='text1'>View Page</div>
+                      </div>
                     </div>
-                  </li>
-                  <li className="item2">
+                  </div>
+                </li>
+              
+                <li className="item2">
+                  <div className="item02">
                     <div className="project-info">
                       <img
                         src="images/project/project-image02.png"
-                        className="img-fluid"
+                        className="img2"
                         alt="project image"
                       />
+                      <div className='middle2'>
+                        <div className='text2'>View Page</div>
+                      </div>
                     </div>
-                  </li>
-                  <li className='item3'>
-                    <div className="project-info">
-                      <img
-                        src="images/project/project-image03.png"
-                        className="img-fluid"
-                        alt="project image"
-                      />
-                    </div>
-                  </li>
-                  <li className='item4'>
-                    <div className="project-info">
-                      <img
-                        src="images/project/project-image04.png"
-                        className="img-fluid"
-                        alt="project image"
-                      />
-                    </div>
-                  </li>
-                  <li className='item5'>
-                    <div className="project-info1">
-                      <img
-                        src="images/project/project-image05.png"
-                        className="img-fluid"
-                        alt="project image"
-                      />
-                    </div>
-                  </li>
-                  <li className='item6'>
-                    <div className="project-info2">
-                      <img
-                        src="images/project/project-image06.png"
-                        className="img-fluid"
-                        alt="project image"
-                      />
-                    </div>
-                  </li>
-                </ul>
+                  </div>
+                </li>
+                
+
+                <li className='item3'>
+                  <div className="project-info">
+                    <img
+                      src="images/project/project-image03.png"
+                      className="img-fluid"
+                      alt="project image"
+                    />
+                  </div>
+                </li>
+                <div className='middle'>
+                  <div className='text'>View Page</div>
+                </div>
+
+                <li className='item4'>
+                  <div className="project-info">
+                    <img
+                      src="images/project/project-image04.png"
+                      className="img-fluid"
+                      alt="project image"
+                    />
+                  </div>
+                </li>
+                <div className='middle'>
+                  <div className='text'>View Page</div>
+                </div>
+
+                <li className='item5'>
+                  <div className="project-info1">
+                    <img
+                      src="images/project/project-image05.png"
+                      className="img-fluid"
+                      alt="project image"
+                    />
+                  </div>
+                </li>
+                <li className='item6'>
+                  <div className="project-info2">
+                    <img
+                      src="images/project/project-image06.png"
+                      className="img-fluid"
+                      alt="project image"
+                    />
+                  </div>
+                </li>
+              </ul>
               </div>
             </div>
           </div>
@@ -335,7 +355,7 @@ function App() {
                       className="uil uil-dribbble"
                       data-toggle="tooltip"
                       data-placement="left"
-                      title="Dribbble"
+                      title="RacketPH"
                       target='_blank'
                     />
                   </li>
@@ -355,7 +375,8 @@ function App() {
                       className="uil uil-youtube"
                       data-toggle="tooltip"
                       data-placement="left"
-                      title="_blank"
+                      title="Youtube"
+                      target='_blank'
                     />
                   </li>
                 </ul>
