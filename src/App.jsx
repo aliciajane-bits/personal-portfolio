@@ -35,6 +35,11 @@ function App() {
                 </a>
               </li>
               <li className="nav-item">
+                <a href="#skill" className="nav-link">
+                  <span data-hover="Skills">Skills</span>
+                </a>
+              </li>
+              <li className="nav-item">
                 <a href="#project" className="nav-link">
                   <span data-hover="Projects">Projects</span>
                 </a>
@@ -105,6 +110,224 @@ function App() {
           </div>
         </div>
       </section>
+
+    <br/>
+    <br/>
+    <br/>
+
+    {/* SKILLS */}
+    <section className="ftco-section bg-light" id="skills-section">
+      <div className="container">
+        <div className="row justify-content-center pb-5">
+          <div className="col-md-12 heading-section text-center ftco-animate">
+            <h2 className="mb-4">My Skills</h2>
+            <p>
+            Through a combination of time management
+            techniques and stress reduction strategies,
+            I became who I am now. During the challenges
+            in my career, I have honed my skills.
+            </p>
+          </div>
+        </div>
+        <div className="row progress-circle mb-5">
+          <div className="col-lg-4 mb-4">
+            <div className="bg-white rounded-lg shadow p-4">
+              <h2 className="h5 font-weight-bold text-center mb-4">HTML</h2>
+              {/* Progress bar 1 */}
+              <div className="progress mx-auto" data-value={90}>
+                <span className="progress-left">
+                  <span className="progress-bar border-primary" />
+                </span>
+                <span className="progress-right">
+                  <span className="progress-bar border-primary" />
+                </span>
+                <div className="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                  <div className="h2 font-weight-bold">
+                    90<sup className="small">%</sup>
+                  </div>
+                </div>
+              </div>
+              {/* END */}
+              {/* Demo info */}
+              <div className="row text-center mt-4">
+                <div className="col-6 border-right">
+                  <div className="h4 font-weight-bold mb-0">32%</div>
+                  <span className="small text-gray">Last week</span>
+                </div>
+                <div className="col-6">
+                  <div className="h4 font-weight-bold mb-0">40%</div>
+                  <span className="small text-gray">Last month</span>
+                </div>
+              </div>
+              {/* END */}
+            </div>
+          </div>
+          <div className="col-lg-4 mb-4">
+            <div className="bg-white rounded-lg shadow p-4">
+              <h2 className="h5 font-weight-bold text-center mb-4">CSS</h2>
+              {/* Progress bar 1 */}
+              <div className="progress mx-auto" data-value={84}>
+                <span className="progress-left">
+                  <span className="progress-bar border-primary" />
+                </span>
+                <span className="progress-right">
+                  <span className="progress-bar border-primary" />
+                </span>
+                <div className="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                  <div className="h2 font-weight-bold">
+                    84<sup className="small">%</sup>
+                  </div>
+                </div>
+              </div>
+              {/* END */}
+              {/* Demo info */}
+              <div className="row text-center mt-4">
+                <div className="col-6 border-right">
+                  <div className="h4 font-weight-bold mb-0">34%</div>
+                  <span className="small text-gray">Last week</span>
+                </div>
+                <div className="col-6">
+                  <div className="h4 font-weight-bold mb-0">52%</div>
+                  <span className="small text-gray">Last month</span>
+                </div>
+              </div>
+              {/* END */}
+            </div>
+          </div>
+          <div className="col-lg-4 mb-4">
+            <div className="bg-white rounded-lg shadow p-4">
+              <h2 className="h5 font-weight-bold text-center mb-4">MySQL</h2>
+              {/* Progress bar 1 */}
+              <div className="progress mx-auto" data-value={92}>
+                <span className="progress-left">
+                  <span className="progress-bar border-primary" />
+                </span>
+                <span className="progress-right">
+                  <span className="progress-bar border-primary" />
+                </span>
+                <div className="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                  <div className="h2 font-weight-bold">
+                    92<sup className="small">%</sup>
+                  </div>
+                </div>
+              </div>
+              {/* END */}
+              {/* Demo info */}
+              <div className="row text-center mt-4">
+                <div className="col-6 border-right">
+                  <div className="h4 font-weight-bold mb-0">12%</div>
+                  <span className="small text-gray">Last week</span>
+                </div>
+                <div className="col-6">
+                  <div className="h4 font-weight-bold mb-0">15%</div>
+                  <span className="small text-gray">Last month</span>
+                </div>
+              </div>
+              {/* END */}
+            </div>
+          </div>
+          <div className="col-lg-4 mb-4">
+            <div className="bg-white rounded-lg shadow p-4">
+              <h2 className="h5 font-weight-bold text-center mb-4">Animation</h2>
+              {/* Progress bar 1 */}
+              <div className="progress mx-auto" data-value={89}>
+                <span className="progress-left">
+                  <span className="progress-bar border-primary" />
+                </span>
+                <span className="progress-right">
+                  <span className="progress-bar border-primary" />
+                </span>
+                <div className="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                  <div className="h2 font-weight-bold">
+                    89<sup className="small">%</sup>
+                  </div>
+                </div>
+              </div>
+              {/* END */}
+              {/* Demo info */}
+              <div className="row text-center mt-4">
+                <div className="col-6 border-right">
+                  <div className="h4 font-weight-bold mb-0">14%</div>
+                  <span className="small text-gray">Last week</span>
+                </div>
+                <div className="col-6">
+                  <div className="h4 font-weight-bold mb-0">75%</div>
+                  <span className="small text-gray">Last month</span>
+                </div>
+              </div>
+              {/* END */}
+            </div>
+          </div>
+          <div className="col-lg-4 mb-4">
+            <div className="bg-white rounded-lg shadow p-4">
+              <h2 className="h5 font-weight-bold text-center mb-4">Digital Illustration</h2>
+              {/* Progress bar 1 */}
+              <div className="progress mx-auto" data-value={97}>
+                <span className="progress-left">
+                  <span className="progress-bar border-primary" />
+                </span>
+                <span className="progress-right">
+                  <span className="progress-bar border-primary" />
+                </span>
+                <div className="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                  <div className="h2 font-weight-bold">
+                    97<sup className="small">%</sup>
+                  </div>
+                </div>
+              </div>
+              {/* END */}
+              {/* Demo info */}
+              <div className="row text-center mt-4">
+                <div className="col-6 border-right">
+                  <div className="h4 font-weight-bold mb-0">18%</div>
+                  <span className="small text-gray">Last week</span>
+                </div>
+                <div className="col-6">
+                  <div className="h4 font-weight-bold mb-0">90%</div>
+                  <span className="small text-gray">Last month</span>
+                </div>
+              </div>
+              {/* END */}
+            </div>
+          </div>
+          <div className="col-lg-4 mb-4">
+            <div className="bg-white rounded-lg shadow p-4">
+              <h2 className="h5 font-weight-bold text-center mb-4">Procrastination</h2>
+              {/* Progress bar 1 */}
+              <div className="progress mx-auto" data-value={95}>
+                <span className="progress-left">
+                  <span className="progress-bar border-primary" />
+                </span>
+                <span className="progress-right">
+                  <span className="progress-bar border-primary" />
+                </span>
+                <div className="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                  <div className="h2 font-weight-bold">
+                    99<sup className="small">%</sup>
+                  </div>
+                </div>
+              </div>
+              {/* END */}
+              {/* Demo info */}
+              <div className="row text-center mt-4">
+                <div className="col-6 border-right">
+                  <div className="h4 font-weight-bold mb-0">85%</div>
+                  <span className="small text-gray">Last week</span>
+                </div>
+                <div className="col-6">
+                  <div className="h4 font-weight-bold mb-0">100%</div>
+                  <span className="small text-gray">Last month</span>
+                </div>
+              </div>
+              {/* END */}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+      
       {/* PROJECTS */}
       <section className="project py-5" id="project">
         <div className="container">
@@ -124,7 +347,11 @@ function App() {
                         alt="project image"
                       />
                       <div className='middle1'>
-                        <div className='text1'>View Page</div>
+                        <div className='text'>
+                          <div class="btn_main">
+                            <div class="buy_bt"><a href="#">See More</a></div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -139,7 +366,11 @@ function App() {
                         alt="project image"
                       />
                       <div className='middle2'>
-                        <div className='text2'>View Page</div>
+                        <div className='text2'>
+                          <div class="btn_main">
+                            <div class="buy_bt"><a href="https://x.com/0xKlaayn/status/1825133561663705344" target='_blank'>See More</a></div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -147,55 +378,92 @@ function App() {
                 
 
                 <li className='item3'>
-                  <div className="project-info">
-                    <img
-                      src="images/project/project-image03.png"
-                      className="img-fluid"
-                      alt="project image"
-                    />
+                  <div className='item03'>
+                    <div className="project-info">
+                      <img
+                        src="images/project/project-image03.png"
+                        className="img3"
+                        alt="project image"
+                      />
+                      <div className='middle3'>
+                        <div className='text3'>
+                          <div class="btn_main">
+                            <div class="buy_bt"><a href="https://www.facebook.com/photo/?fbid=122198920064019136&set=pcb.122198920436019136" target='_blank'>See More</a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </li>
-                <div className='middle'>
-                  <div className='text'>View Page</div>
-                </div>
+                
 
                 <li className='item4'>
-                  <div className="project-info">
-                    <img
-                      src="images/project/project-image04.png"
-                      className="img-fluid"
-                      alt="project image"
-                    />
+                  <div className='item04'>
+                    <div className="project-info">
+                      <img
+                        src="images/project/project-image04.png"
+                        className="img-4"
+                        alt="project image"
+                      />
+                      <div className='middle4'>
+                        <div className='text4'>
+                          <div class="btn_main">
+                            <div class="buy_bt"><a href="https://www.facebook.com/WesleyM21" target='_blank'>See More</a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </li>
-                <div className='middle'>
-                  <div className='text'>View Page</div>
-                </div>
+                
 
                 <li className='item5'>
-                  <div className="project-info1">
-                    <img
-                      src="images/project/project-image05.png"
-                      className="img-fluid"
-                      alt="project image"
-                    />
+                  <div className='item05'>
+                    <div className="project-info1">
+                      <img
+                        src="images/project/project-image05.png"
+                        className="img5"
+                        alt="project image"
+                      />
+                      <div className='middle5'>
+                        <div className='text5'>
+                          <div class="btn_main">
+                            <div class="buy_bt"><a href="https://x.com/0xKlaayn/status/1826588123201241227" target='_blank'>See More</a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </li>
+
+
                 <li className='item6'>
-                  <div className="project-info2">
-                    <img
-                      src="images/project/project-image06.png"
-                      className="img-fluid"
-                      alt="project image"
-                    />
+                  <div className='item06'>
+                    <div className="project-info2">
+                      <img
+                        src="images/project/project-image06.png"
+                        className="img6"
+                        alt="project image"
+                      />
+                      <div className='middle6'>
+                        <div className='text6'>
+                          <div class="btn_main">
+                            <div class="buy_bt"><a href="https://x.com/0xKlaayn" target='_blank'>See More</a></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </li>
+                
               </ul>
               </div>
             </div>
           </div>
         {/* </div> */}
       </section>
+      <br/>
+      <br/>
       <br/>
       <br/>
       <br/>
